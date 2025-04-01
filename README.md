@@ -10,7 +10,7 @@ Follow these steps to set up the project on your local machine.
 
 ### Clone the Repository
 ```bash
-git https://github.com/tharun-gutha-1104/openAI-agent.git
+git clone https://github.com/tharun-gutha-1104/openAI-agent.git
 cd <repository-folder>
 ```
 
