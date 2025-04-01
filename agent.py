@@ -87,6 +87,7 @@ e_commerce_agent = Agent(
 # Function to process customer queries
 # This function takes a customer query as input and uses the e-commerce agent to generate metadata.
 async def process_customer_query(query: str):
+
     input_data = [
         {
             "role": "user",
