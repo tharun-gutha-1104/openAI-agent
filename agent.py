@@ -29,6 +29,7 @@ if not api_key:
 class Metadata(BaseModel):
     topics: Optional[List[str]] = None
     dates: Optional[List[str]] = None
+    normalized_dates: Optional[List[str]] = None
     products: Optional[List[str]] = None
     order_number: Optional[str] = None
     requested_action: Optional[str] = None
